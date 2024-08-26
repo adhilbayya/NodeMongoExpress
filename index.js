@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://adhilvk445:bayya123@database.qm78p.mongodb.net/node-API?retryWrites=true&w=majority&appName=database"
+    ""
   )
   .then(() => {
     console.log("Connected to db");
